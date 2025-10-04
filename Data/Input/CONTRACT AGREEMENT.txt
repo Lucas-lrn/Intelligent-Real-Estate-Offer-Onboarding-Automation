@@ -1,0 +1,20 @@
+				CONTRACT AGREEMENT
+This Contract Agreement (“Agreement”) is made and entered into on {0}, by and between:
+Party A: {1} 
+Phone number: {2} 
+Address: {3}
+Email: {4}
+1. PURPOSE
+The purpose of this Agreement is to establish the terms and conditions under which Party A and Party B will cooperate in relation to [describe purpose, e.g. the provision of consulting services].
+2. TERM
+This Agreement shall commence on {5} and continue until {6}, unless terminated earlier in accordance with the provisions of this Agreement.
+3. COMPENSATION
+Party B shall pay Party A the amount of {7} in accordance with the following terms: [insert payment 4. CONFIDENTIALITY
+Both parties agree to maintain the confidentiality of all non-public information obtained in the course of this Agreement.
+5. TERMINATION
+Either party may terminate this Agreement with [number] days written notice.
+6. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of [Jurisdiction].
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date first written above.
+_____________________________
+Party A (Name & Signature) /sn1/

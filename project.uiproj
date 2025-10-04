@@ -1,0 +1,6 @@
+{
+  "Name": "Ref_Perform_TestApp",
+  "ProjectType": "Process",
+  "Description": "",
+  "MainFile": "Main.xaml"
+}
