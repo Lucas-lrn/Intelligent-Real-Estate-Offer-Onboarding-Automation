@@ -1,3 +1,57 @@
+# 🏗️ Intelligent Real Estate Offer & Onboarding Automation
+## 📖 Description
+
+This project demonstrates how to combine UiPath RPA (for Document Understanding, orchestrating workflows, and system integration) with Python (Flask) for AI-driven capabilities such as anomaly detection, smart summaries, and contact data creation.
+
+It is designed for real estate businesses to automate repetitive manual tasks like building offers, onboarding customers, validating contracts, and managing contact data — freeing up teams from administrative bottlenecks.
+## 🎯 Objectives
+
+Automate the end-to-end real estate offer workflow.
+
+Use UiPath Document Understanding to process contracts, addenda, invoices.
+
+Call Python AI services (Flask APIs) for:
+
+   - 🔎 Anomaly detection (detect unusual deals using Isolation Forest).
+
+   - 📝 NLP Summaries (generate human-readable summaries of offers).
+
+   - 👤 Contact Data API (create buyer/seller contacts with emails, phones, addresses).
+
+- Reconcile extracted data with Excel / backend systems.
+
+- Ensure enterprise-grade deployment: secure API, logging, monitoring.
+
+## ⚙️ How It Works
+
+UiPath extracts structured data from documents.
+
+Calls Flask API endpoints with JSON payloads:
+
+- /predict → anomaly detection on offer values.
+
+- /summary → generates human-readable contract summary.
+
+- /contact → creates contact payload for CRM/Google Contacts.
+
+Flask returns JSON → UiPath continues workflow.
+
+Final contracts are reconciled in Excel and sent for DocuSign.
+
+## 📈 Future Enhancements
+
+Fraud detection with duplicate / anomaly patterns.
+
+LLM-powered contract clause suggestions.
+
+ERP/CRM system API integrations (Salesforce, SAP, Dynamics).
+
+Dashboard with offer pipeline analytics.
+
+## Process Map
+<img width="1678" height="276" alt="image" src="https://github.com/user-attachments/assets/0de07213-050d-4b0f-9367-97aa1f065395" />
+
+
 ### Documentation is included in the Documentation folder ###
 
 
@@ -37,3 +91,4 @@
 2. Implement InitiAllApplications.xaml and CloseAllApplicatoins.xaml workflows, linking them in the Config.xlsx fields
 3. Implement GetTransactionData.xaml and SetTransactionStatus.xaml according to the transaction type being used (Orchestrator queues by default)
 4. Implement Process.xaml workflow and invoke other workflows related to the process being automated
+
