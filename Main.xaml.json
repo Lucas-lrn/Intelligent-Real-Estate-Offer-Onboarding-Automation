@@ -6,10 +6,10 @@
   "OriginalIconFileName": null,
   "Arguments": [
     {
-      "Name": "in_OrchestratorQueueName",
-      "DisplayName": "in_OrchestratorQueueName",
+      "Name": "envelopeId",
+      "DisplayName": "envelopeId",
       "Category": null,
-      "Tooltip": "Allows the Orchestrator queue name to be passed as an argument, instead of only being defined in the configuration file.",
+      "Tooltip": null,
       "Placeholder": null,
       "Widget": null,
       "IsRequired": false,
@@ -18,10 +18,22 @@
       "DataSourceItems": null
     },
     {
-      "Name": "in_OrchestratorQueueFolder",
-      "DisplayName": "in_OrchestratorQueueFolder",
+      "Name": "envelopeStatus",
+      "DisplayName": "envelopeStatus",
       "Category": null,
-      "Tooltip": "Allows the Orchestrator folder name where the queue is created to be passed as an argument, instead of only being defined in the configuration file.",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "recipients",
+      "DisplayName": "recipients",
+      "Category": null,
+      "Tooltip": null,
       "Placeholder": null,
       "Widget": null,
       "IsRequired": false,

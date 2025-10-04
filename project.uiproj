@@ -1,6 +1,6 @@
 {
-  "Name": "Ref_Perform_TestApp",
+  "Name": "Monitor_DocuSign",
   "ProjectType": "Process",
-  "Description": "",
+  "Description": "Monitor_DocuSign",
   "MainFile": "Main.xaml"
 }

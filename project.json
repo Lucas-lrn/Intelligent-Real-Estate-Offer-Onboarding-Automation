@@ -1,24 +1,17 @@
 {
-  "name": "Ref_Perform_TestApp",
-  "projectId": "e8469e99-4031-45cb-b276-99d3494de390",
-  "description": "",
+  "name": "Monitor_DocuSign",
+  "projectId": "1d50a207-47e3-4369-9c1b-0ae33176107c",
+  "description": "Monitor_DocuSign",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Credentials.Activities": "[3.0.0]",
     "UiPath.Excel.Activities": "[3.2.1]",
-    "UiPath.GSuite.Activities": "[3.4.10]",
-    "UiPath.Python.Activities": "[2.0.0-preview]",
-    "UiPath.System.Activities": "[25.8.1]",
-    "UiPath.Testing.Activities": "[25.4.1]",
-    "UiPath.UIAutomation.Activities": "[25.10.15-preview]",
-    "UiPath.WebAPI.Activities": "[2.2.0-preview]",
-    "UiPath.Word.Activities": "[2.2.0]"
+    "UiPath.System.Activities": "[25.8.1]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.176.0",
-  "projectVersion": "1.0.6",
+  "projectVersion": "1.0.7",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,57 +39,14 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "c1acd8da-d2ac-4b7b-9a73-0342ebd5f7ad",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "c214c858-db09-4833-8b9a-ad34eeac2d00",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "0c1350f4-1f5d-421e-a6a2-1ee586833a4e",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "616c13fe-bb4d-4d55-ab88-0b02ce6305cd",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\MainTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "c9c5a4f9-1aca-4ab7-a124-fcef3dbb07d9",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\ProcessTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "8f94e5e5-ce02-4a1a-9d98-c79f9dcf5b6d",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
-      }
-    ],
+    "fileInfoCollection": [],
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "9e82fa55-04b1-47be-9a82-bb6d1f382bce",
+      "uniqueId": "f3c3d9c6-147e-4d37-b290-a02108a4a656",
       "input": [],
       "output": []
     }
